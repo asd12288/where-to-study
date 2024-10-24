@@ -1,0 +1,210 @@
+{
+  "cafes": [
+    {
+      "id": 1,
+      "name": "CafeZal",
+      "location": "123 Main Street, Cityville",
+      "rating": " 4.0 ⭐️⭐️⭐️⭐️",
+      "image": "/images/cafezal.jpg",
+      "opening": "Mon-Sun: 8:00 AM - 10:00 PM",
+      "contact": "+33 1 23 45 67 89",
+      "website": "www.lepetitcafe.com",
+      "google": "<iframe src='https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1790.59640877466!2d9.20641820104809!3d45.464428828948066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d45.4641867!2d9.2078065!4m5!1s0x4786c731ef49df09%3A0xe2f5e326c36fb616!2sViale%20Premuda%2C%2014%2C%2020129%20Milano%20MI%2C%20Italy!3m2!1d45.464164499999995!2d9.2076383!5e1!3m2!1sen!2sil!4v1729696862253!5m2!1sen!2sil' width='400' height='300' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+      "review": "a nice place",
+      "city": "milano",
+      "openingHours": "",
+      "googleMap": ""
+    },
+    {
+      "id": 2,
+      "name": "Maple Coffee House",
+      "location": "123 Main Street, Cityville",
+      "rating": " 4.0 ⭐️⭐️⭐️⭐️",
+      "image": "/images/cafezal.jpg",
+      "opening Hours": "Mon-Sun: 8:00 AM - 10:00 PM",
+      "contact": "+33 1 23 45 67 89",
+      "website": "www.lepetitcafe.com",
+      "google-map": "<iframe src='https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1790.59640877466!2d9.20641820104809!3d45.464428828948066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d45.4641867!2d9.2078065!4m5!1s0x4786c731ef49df09%3A0xe2f5e326c36fb616!2sViale%20Premuda%2C%2014%2C%2020129%20Milano%20MI%2C%20Italy!3m2!1d45.464164499999995!2d9.2076383!5e1!3m2!1sen!2sil!4v1729696862253!5m2!1sen!2sil' width='400' height='300' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+      "review": "a nice place",
+      "city": "paris"
+    },
+    {
+      "id": 3,
+      "name": "Maple Coffee House",
+      "location": "123 Main Street, Cityville",
+      "rating": " 4.0 ⭐️⭐️⭐️⭐️",
+      "image": "/images/cafezal.jpg",
+      "opening Hours": "Mon-Sun: 8:00 AM - 10:00 PM",
+      "contact": "+33 1 23 45 67 89",
+      "website": "www.lepetitcafe.com",
+      "google-map": "<iframe src='https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1790.59640877466!2d9.20641820104809!3d45.464428828948066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d45.4641867!2d9.2078065!4m5!1s0x4786c731ef49df09%3A0xe2f5e326c36fb616!2sViale%20Premuda%2C%2014%2C%2020129%20Milano%20MI%2C%20Italy!3m2!1d45.464164499999995!2d9.2076383!5e1!3m2!1sen!2sil!4v1729696862253!5m2!1sen!2sil' width='400' height='300' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+      "review": "a nice place",
+      "city": "tel-aviv"
+    },
+    {
+      "id": 4,
+      "name": "Maple Coffee House",
+      "location": "123 Main Street, Cityville",
+      "rating": " 4.0 ⭐️⭐️⭐️⭐️",
+      "image": "/uploads/image-1729765662962-667820866.jpg",
+      "opening Hours": "Mon-Sun: 8:00 AM - 10:00 PM",
+      "contact": "+33 1 23 45 67 89",
+      "website": "www.lepetitcafe.com",
+      "google-map": "<iframe src='https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1790.59640877466!2d9.20641820104809!3d45.464428828948066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d45.4641867!2d9.2078065!4m5!1s0x4786c731ef49df09%3A0xe2f5e326c36fb616!2sViale%20Premuda%2C%2014%2C%2020129%20Milano%20MI%2C%20Italy!3m2!1d45.464164499999995!2d9.2076383!5e1!3m2!1sen!2sil!4v1729696862253!5m2!1sen!2sil' width='400' height='300' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+      "review": "a nice place",
+      "city": "paris"
+    },
+    {
+      "id": 5,
+      "name": "Gelsomina",
+      "location": "Via Galvano Fiamma, 2",
+      "rating": " 4.0 ⭐️⭐️⭐️⭐️",
+      "image": "/images/gelsomina.jpg",
+      "opening Hours": "Mon-Sun: 8:00 AM - 10:00 PM",
+      "contact": "+33 1 23 45 67 89",
+      "website": "https://pasticceriagelsomina.it/",
+      "google-map": "<iframe src='https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1790.59640877466!2d9.20641820104809!3d45.464428828948066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d45.4641867!2d9.2078065!4m5!1s0x4786c731ef49df09%3A0xe2f5e326c36fb616!2sViale%20Premuda%2C%2014%2C%2020129%20Milano%20MI%2C%20Italy!3m2!1d45.464164499999995!2d9.2076383!5e1!3m2!1sen!2sil!4v1729696862253!5m2!1sen!2sil' width='400' height='300' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+      "review": "a nice place",
+      "city": "milano"
+    },
+    {
+      "id": 6,
+      "name": "Starbuck reserve",
+      "location": "P.za Cordusio, 3, 20123",
+      "rating": " 4.0 ⭐️⭐️⭐️⭐️",
+      "image": "/images/starbuck.jpg",
+      "opening Hours": "Mon-Sun: 8:00 AM - 10:00 PM",
+      "contact": "+33 1 23 45 67 89",
+      "website": "https://www.starbucksreserve.com/",
+      "google-map": "<iframe src='https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1790.59640877466!2d9.20641820104809!3d45.464428828948066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d45.4641867!2d9.2078065!4m5!1s0x4786c731ef49df09%3A0xe2f5e326c36fb616!2sViale%20Premuda%2C%2014%2C%2020129%20Milano%20MI%2C%20Italy!3m2!1d45.464164499999995!2d9.2076383!5e1!3m2!1sen!2sil!4v1729696862253!5m2!1sen!2sil' width='400' height='300' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+      "review": "a nice place",
+      "city": "milano"
+    },
+    {
+      "id": 7,
+      "name": "Combo, Milano",
+      "location": "Ripa di Porta Ticinese, 83, 20143",
+      "rating": " 4.0 ⭐️⭐️⭐️⭐️",
+      "image": "/images/combo.jpg",
+      "opening Hours": "Mon-Sun: 8:00 AM - 10:00 PM",
+      "contact": "+33 1 23 45 67 89",
+      "website": "https://www.booking.com/searchresults.he.html?aid=311984&label=combo-milano-M5aswlM3nH3w8WCThQFm2wS471107191178%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atiaud-2008455907654%3Akwd-829011442289%3Alp1007982%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YTQUGSsRwx9_3qo3uPTHyoo&gclid=Cj0KCQjw4Oe4BhCcARIsADQ0csmeAOgXdcyzqv_IHbTtxJl1jgrjWBuyVUNrt84hGHkPRZzq2t4t9BIaAr9wEALw_wcB&highlighted_hotels=5248863&redirected=1&city=-121726&hlrd=no_dates&source=hotel&expand_sb=1&keep_landing=1&sid=f18f6e583ea821bd4ecde47602e46632",
+      "google-map": "<iframe src='https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1790.59640877466!2d9.20641820104809!3d45.464428828948066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d45.4641867!2d9.2078065!4m5!1s0x4786c731ef49df09%3A0xe2f5e326c36fb616!2sViale%20Premuda%2C%2014%2C%2020129%20Milano%20MI%2C%20Italy!3m2!1d45.464164499999995!2d9.2076383!5e1!3m2!1sen!2sil!4v1729696862253!5m2!1sen!2sil' width='400' height='300' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+      "review": "an nice hotel, hipster vibe",
+      "city": "milano"
+    },
+    {
+      "id": 8,
+      "name": "Il Cafetero",
+      "location": "Via Rembrandt, 12, 20148 ",
+      "rating": "4",
+      "image": "/uploads/image-1729766619757-397919518.jpg",
+      "opening Hours": "",
+      "contact": "",
+      "website": "https://ilcafetero.it/",
+      "google-map": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2346.9134866450927!2d9.138042876185137!3d45.468867987659394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c19da5c53b13%3A0xf8a1876db5ed8a05!2sIl%20Cafetero%20Specialty%20Coffee%20Milan!5e1!3m2!1sen!2sil!4v1729766603743!5m2!1sen!2sil\" width=\"400\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "review": "A cute little place not really busy",
+      "city": "milano"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Embracing the Digital Nomad Lifestyle",
+      "content": "The digital nomad lifestyle offers unparalleled freedom and flexibility. Here's how you can get started, manage your work-life balance, and choose the best destinations for remote work.",
+      "author": "Jane Doe",
+      "date": "2024-04-15",
+      "tags": [
+        "Digital Nomad",
+        "Remote Work",
+        "Lifestyle"
+      ],
+      "category": "Lifestyle",
+      "imageUrl": "/images/digital-nomad.jpeg",
+      "comments": [
+        {
+          "user": "JohnSmith",
+          "comment": "Great insights! I'm planning to become a digital nomad next year.",
+          "date": "2024-04-16"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Top 10 Destinations for Remote Workers in 2024",
+      "content": "Discover the best places around the world that offer excellent infrastructure, vibrant communities, and affordable living for remote workers.",
+      "author": "Mike Johnson",
+      "date": "2024-05-10",
+      "tags": [
+        "Travel",
+        "Remote Work",
+        "Destinations"
+      ],
+      "category": "Travel",
+      "imageUrl": "/images/digital-nomad2.jpeg",
+      "comments": []
+    },
+    {
+      "id": 3,
+      "title": "Essential Tools for Digital Nomads",
+      "content": "Equip yourself with the right tools to enhance productivity, stay connected, and manage your projects effectively while on the move.",
+      "author": "Sara Lee",
+      "date": "2024-06-05",
+      "tags": [
+        "Productivity",
+        "Tools",
+        "Digital Nomad"
+      ],
+      "category": "Productivity",
+      "imageUrl": "/images/digital-nomad3.jpeg",
+      "comments": [
+        {
+          "user": "EmilyClark",
+          "comment": "Thanks for the recommendations! I've been looking for better project management tools.",
+          "date": "2024-06-06"
+        },
+        {
+          "user": "DavidBrown",
+          "comment": "Can you include some budgeting apps in your next post?",
+          "date": "2024-06-07"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Balancing Work and Travel as a Digital Nomad",
+      "content": "Learn strategies to maintain productivity while exploring new places, ensuring you make the most of both your professional and personal adventures.",
+      "author": "Laura Martinez",
+      "date": "2024-07-20",
+      "tags": [
+        "Work-Life Balance",
+        "Travel",
+        "Remote Work"
+      ],
+      "category": "Self-Improvement",
+      "imageUrl": "/images/digital-nomad.jpeg",
+      "comments": []
+    },
+    {
+      "id": 5,
+      "title": "Overcoming Challenges of Remote Work",
+      "content": "Remote work isn't without its challenges. Here's how to tackle issues like isolation, time management, and maintaining a productive workspace.",
+      "author": "Tom Harris",
+      "date": "2024-08-12",
+      "tags": [
+        "Remote Work",
+        "Challenges",
+        "Productivity"
+      ],
+      "category": "Career",
+      "imageUrl": "images/digital-nomad.jpeg",
+      "comments": [
+        {
+          "user": "SophiaGreen",
+          "comment": "Isolation has been tough for me. Great tips on staying connected!",
+          "date": "2024-08-13"
+        }
+      ]
+    }
+  ]
+}

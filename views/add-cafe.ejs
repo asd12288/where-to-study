@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a New Cafe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            margin: 50px;
+        }
+
+        h1 {
+            text-align: left;
+            font-size: 38px;
+            color: #333;
+            margin: 30px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="file"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 15px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        input:focus,
+        textarea:focus {
+            border-color: #80bdff;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+        }
+    </style>
+</head>
+<body>
+    <div><h1>Add new cafe</h1></div>
+ 
+    <form action="/add-cafe" method="post" enctype="multipart/form-data">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="location">Location:</label><br>
+        <input type="text" id="location" name="location" required><br><br>
+
+        <label for="rating">Rating:</label><br>
+        <input type="range" id="rating" name="rating" min="0" max="5" step="0.5" value="3" oninput="updateStars(this.value)">
+        <div class="star-output" id="starOutput">⭐️⭐️⭐️</div><br><br>
+
+
+        <label for="image">Image URL:</label><br>
+        <input type="file" id="image" name="image" placeholder="/images/cafe.jpg"><br><br>
+
+        <label for="opening-hours">Opening Hours:</label><br>
+        <input type="text" id="opening-hours" name="openingHours" placeholder="Mon-Sun: 8:00 AM - 10:00 PM"><br><br>
+
+        <label for="contact">Contact:</label><br>
+        <input type="text" id="contact" name="contact" placeholder="+33 1 23 45 67 89"><br><br>
+
+        <label for="website">Website:</label><br>
+        <input type="text" id="website" name="website" placeholder="https://example.com"><br><br>
+
+        <label for="google-map">Google Map Embed:</label><br>
+        <textarea id="google-map" name="googleMap" rows="4" placeholder=""></textarea><br><br>
+
+        <label for="review">Review:</label><br>
+        <textarea id="review" name="review" rows="4" placeholder="Write a short review"></textarea><br><br>
+
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <button type="submit">Add Cafe</button>
+    </form>
+    <script>
+        function updateStars(value) {
+            const stars = "⭐️".repeat(Math.round(value));
+            document.getElementById("starOutput").textContent = stars;
+        }
+
+        // Initialize stars based on default value
+        document.addEventListener('DOMContentLoaded', function () {
+            const slider = document.getElementById("rating");
+            updateStars(slider.value);
+        });
+    </script>
+</body>
+
+
+</html>

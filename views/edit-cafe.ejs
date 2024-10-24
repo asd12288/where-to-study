@@ -1,0 +1,53 @@
+<%- include("partials/header.ejs") %>
+
+<body>
+    <h1>Edit Cafe</h1>
+    <form action="/edit-cafe/<%= cafe.id %>?_method=PATCH" method="post" >
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" value="<%= cafe.name %>" required><br><br>
+
+        <label for="location">Location:</label><br>
+        <input type="text" id="location" name="location" value="<%= cafe.location %>" required><br><br>
+
+        <label for="rating">Rating:</label><br>
+        <input type="range" id="rating" name="rating" min="0" max="5" step="0.5" value="3" oninput="updateStars(this.value)">
+        <div class="star-output" id="starOutput">⭐️⭐️⭐️</div><br><br>
+
+        <label for="image">Image URL:</label><br>
+        <input type="file" id="image" name="image" value="<%= cafe.image %>"><br><br>
+
+        <label for="opening-hours">Opening Hours:</label><br>
+        <input type="text" id="opening-hours" name="openingHours" value="<%= cafe["opening Hours"] %>"><br><br>
+
+        <label for="contact">Contact:</label><br>
+        <input type="text" id="contact" name="contact" value="<%= cafe.contact %>"><br><br>
+
+        <label for="website">Website:</label><br>
+        <input type="text" id="website" name="website" value="<%= cafe.website %>"><br><br>
+
+        <label for="google-map">Google Map Embed:</label><br>
+        <textarea id="google-map" name="googleMap" rows="4"><%- cafe["google-map"] %></textarea><br><br>
+
+        <label for="review">Review:</label><br>
+        <textarea id="review" name="review" rows="4"><%= cafe.review %></textarea><br><br>
+
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city" value="<%= cafe.city %>" required><br><br>
+
+        <button type="submit">Update Cafe</button>
+
+        
+    </form>
+    <script>
+        function updateStars(value) {
+            const stars = "⭐️".repeat(Math.round(value));
+            document.getElementById("starOutput").textContent = stars;
+        }
+
+        // Initialize stars based on default value
+        document.addEventListener('DOMContentLoaded', function () {
+            const slider = document.getElementById("rating");
+            updateStars(slider.value);
+        });
+    </script>
+</body>

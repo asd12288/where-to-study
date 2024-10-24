@@ -1,0 +1,37 @@
+<%- include("partials/header.ejs") %>
+
+<div class="cafe-cover-title">
+  <h2 class="cafe-title"><%= city %></h2>
+  <img src=<%= cityImage %> alt="<%= city %>">
+  <div class="overlay"></div>
+</div>
+
+<div class="city-intro"><h2>The best cafes in town</h2></div>
+
+<div class="cafes-container">
+    <% cafes.forEach(cafe => { %>
+      
+      <div class="cafe-card">
+        <a href="/cafe-details/<%= cafe.id %>">
+
+        <img src=<%= cafe.image %> alt="cafe image">
+        <div class="text-container"></div>
+        <h2>
+            <%= cafe.name %>
+          </a>
+        </h2>
+        
+        <p><%= cafe.location %></p>
+
+        <p><%= cafe.rating %></p>
+      </div>
+
+    <% }); %>
+  </div>
+  <div class="arrows">
+  </div>
+  
+
+
+
+<%- include("partials/footer.ejs") %>

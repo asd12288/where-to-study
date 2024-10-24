@@ -1,0 +1,61 @@
+<%- include("partials/header.ejs") %>
+
+    <div class="cafe-cover-title">
+        <h2 class="cafe-title">
+            <%=cafe.name%>
+        </h2>
+        <h3 class="cafe-address">
+            <%=cafe.location %>
+        </h3>
+        <img src=<%=cafe.image%> alt="">
+        <div class="overlay"></div>
+    </div>
+
+    <div class="info-section">
+        <div class="info-title">
+            <h3>Information</h3>
+            <div class="info">
+                <div class="details">
+                    <p><strong>Location:</strong>
+                        <%= cafe.location %>
+                    </p>
+                    <p><strong>Opening Hours:</strong>
+                        <%= cafe.opening%>
+                    </p>
+                    <p><strong>Contact:</strong>
+                        <%= cafe.contact %>
+                    </p>
+                    <p><a href=<%=cafe.website %>
+                            target="_blank"><strong>Website</strong></a></p>
+                    <p>
+                        <%= cafe.review %>
+                    </p>
+                    <p><strong>Rating:</strong>
+                        <%= cafe.rating %>
+                    </p>
+                </div>
+                <div class="map">
+                 <p>   <%- cafe.google %></p>
+                </div>
+            </div>
+            <div class="review">
+                <a href="/city/<%= cafe.city %>" class="back-link">← Back to Cafes in <%= cafe.city %></a>
+
+            </div>
+            <br>
+            <br>
+            <div class="actions">
+                <a href="/edit-cafe/<%= cafe.id %>" class="btn btn-edit">Edit Cafe</a>
+                <form action="/delete-cafe/<%= cafe.id %>?_method=DELETE" method="post" style="display:inline;">
+                    <button type="submit" class="btn btn-delete">Delete Cafe</button>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <%- include("partials/footer.ejs") %>

@@ -1,0 +1,24 @@
+<%- include("partials/header.ejs") %>
+
+<div class="body-blog">
+
+<article class="blog-post">
+    <img src=<%= blog.imageUrl %> alt="Blog Image">
+
+    <h1><%=blog.title %></h1>
+
+    <p class="author-info">
+        Written by <span><%= blog.author %></span> on <span><%= blog.date %></span>
+    </p>
+
+    <div class="content">
+        <p><%= blog.content %></p>
+    </div>
+
+    <a href="/blogs" class="back-link">← Back to Blogs</a>
+</article>
+</div>
+
+
+
+    <%- include("partials/footer.ejs") %>

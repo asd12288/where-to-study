@@ -1,0 +1,36 @@
+<%- include("partials/header.ejs") %>
+
+<div class="cafe-cover-title">
+    <h2 class="cafe-title">Blogs</h2>
+    <img src="/images/blogs.jpg" alt="">
+    <div class="overlay"></div>
+</div>
+
+<div class="city-intro"><h2>Our lastest Blogs</h2></div>
+
+<div class="blogs-container">
+    <% blogs.forEach(blog => { %>
+
+        <div class="blog-card">
+            
+                <img src=<%= blog.imageUrl %> alt="blog">
+                <div class="text-container"></div>
+                <h2>
+                    <%=blog.title %>
+                
+                </h2>
+                <p><%= blog.author %></p>
+
+                <p><%= blog.date %></p>
+
+                <a href="/blogs/<%= blog.id %>"><p>read article</p></a>
+            
+        </div>
+  <%  }); %>
+</div>
+<br>
+
+
+
+
+<%- include("partials/footer.ejs") %>
